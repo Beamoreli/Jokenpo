@@ -4,6 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>jokenpô</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
@@ -13,12 +18,12 @@
     <img src="/images/papel.png" alt="Papel">
     <img src="/images/tesoura.png" alt="Tesoura">
     <form name="frmJokenpo">
-        <input type="radio" name="grupo" id="pedra">Pedra
-        <input type="radio" name="grupo" id="papel">Papel
-        <input type="radio" name="grupo" id="tesoura">Tesoura
+        <input class="escolha" type="radio" name="grupo" id="pedra">Pedra
+        <input class="escolha" type="radio" name="grupo" id="papel">Papel
+        <input class="escolha" type="radio" name="grupo" id="tesoura">Tesoura
         <p>
-            <input type="button" value=" JOGAR " onclick="jogar()">
-            <input type="reset" value=" RESET " onclick="resetar()">
+            <input class="btn" type="button" value=" JOGAR " onclick="jogar()">
+            <input class="btn" type="reset" value=" RESET " onclick="resetar()">
         </p>
     </form>
     <hr>
